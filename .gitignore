@@ -1,0 +1,33 @@
+# 1. 언리얼 엔진이 자동으로 생성하는 임시/빌드 폴더 제외
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+.vs/
+.idea/
+.vscode/
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# 2. 모든 언리얼 에셋 파일(알맹이) 완전히 제외
+*.uasset
+*.umap
+
+# 3. 언리얼 5 외부 액터 숨김 폴더 및 파일 예외 없이 전부 제외
+.ExternalActors/
+**/.ExternalActors/
+.ExternalActors/*
+
+# 4. 소스용 대용량 에셋 파일 추가 제외
+*.fbx
+*.obj
+*.png
+*.jpg
+*.jpeg
+*.tga
+*.exr
+*.wav
+*.mp3
